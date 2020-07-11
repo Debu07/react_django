@@ -22,7 +22,7 @@ now open urls.py file and import TemplateView
 
 and add the below line inside the urlpatterns after ,
 
-### path('',TempalteView.as_view(template_name='index.html')),
+### path('',TemplateView.as_view(template_name='index.html')),
 
 
 after that come back to settings.py and add the static folder so that django know about the css files and js files and other static files 
@@ -37,4 +37,5 @@ go to parent directory where the django file is created to run server
 
 ### python mange.py runserver
 
-and you will see the react logo in your //localhost:8000 
+and you will see the react logo in your 
+### //localhost:8000 
